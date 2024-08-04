@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - KidsCollab</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KidsCollab</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="javascript:void(0)">Stories</a>
+                <div class="dropdown-content">
+                    <a href="fiction.html">Fiction</a>
+                    <a href="nonfiction.html">Non-Fiction</a>
+                </div>
+            </div>
+            <a href="favorites.html">Favorites</a>
+            <a href="signin.html">Sign In</a>
+        </nav>
+    </header>
+    <main>
+        <section id="signin">
+            <h2>Sign In</h2>
+            <form onsubmit="handleSignIn(event)">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Sign In</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 KidsCollab</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
 
